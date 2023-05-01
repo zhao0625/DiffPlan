@@ -15,6 +15,22 @@
 - [[Paper]](https://lfzhao.com/paper/paper-idplan-iclr2023.pdf) [[Poster]](https://lfzhao.com/poster/poster-idplan-iclr2023.pdf) [[Slides]](https://lfzhao.com/slides/slides-idplan-iclr2023.pdf) [[ICLR page]](https://iclr.cc/virtual/2023/poster/10976) [[OpenReview]](https://openreview.net/forum?id=PYbe4MoHf32) [[arXiv]](https://arxiv.org/abs/2210.13542) 
 
 
+
+## Papers
+
+
+### Symmetric Planning
+
+![SymPlan-equivariance-animation](assets/SymPlan-equivariance-animation.gif)
+
+
+
+### Implicit Differentiable Planning
+
+![IDPlan-compare-animation](assets/IDPlan-compare.gif)
+
+
+
 ## Structure
 
 The codebase is based on a VIN reimplementation `pytorch-value-iteration-networks` and implementation of GPPN `gated-path-planning-networks`.
@@ -62,3 +78,26 @@ python main.py run_train with datafile=../data/Visual3DNav_10k_15_4abs-cc.npz me
 ```
 
 
+## Contact
+
+[Linfeng Zhao](http://lfzhao.com) ([zhao.linf@northeastern.edu](mailto:zhao.linf@northeastern.edu))
+
+
+## Citation
+
+
+```
+@inproceedings{zhao2023integrating,
+  title={Integrating Symmetry into Differentiable Planning with Steerable Convolutions},
+  author={Zhao, Linfeng and Zhu, Xupeng and Kong, Lingzhi and Walters, Robin and Wong, Lawson LS},
+  booktitle={ICLR},
+  year={2023}
+}
+
+@inproceedings{zhao2023scaling,
+  title={Scaling up and Stabilizing Differentiable Planning with Implicit Differentiation},
+  author={Zhao, Linfeng and Xu, Huazhe and Wong, Lawson LS},
+  booktitle={ICLR},
+  year={2023}
+}
+```
